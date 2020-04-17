@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Inputs demo</title>
+</head>
+<body>
+    <h1>Login Now!</h1>
+    <!-- Action = Where form sends data to -->
+    <!-- Method = What HTTP Method (GET,POST,-->
+    <form action="http://wikipedia.org" method="GET">
+        <label for="username" >Email:</label>
+        <input id="username" name="username" type="email" placeholder="User Name" required >
+
+        <label for="password">Password:</label>
+        <input id="password" name="password" type="password" placeholder="Password" required >
+
+        <input type="submit" value="Submit">
+    </form>
+   
+</body>
+</html>
