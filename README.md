@@ -1,4 +1,4 @@
-# HTML_Somemore
+# HTML-Intermediate
 This repo demonstrates more html concepts like -  Tables, Forms, Inputs
 
 ### MDN Input reference
